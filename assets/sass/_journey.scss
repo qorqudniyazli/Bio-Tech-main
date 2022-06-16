@@ -1,0 +1,60 @@
+.journey{
+    background-color: #000;
+    background-image: url(../img/journey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #metn{
+        color: #80AB9E;
+    }
+    #ikon{
+        margin-left:400px;
+    }
+
+    #ikon2{
+        margin-left:250px;
+    }
+
+
+    #consulting{
+         background-color: #09c68d24;
+      
+    }
+
+
+    #see{
+        border:2px solid #00E3A5;
+      margin: 0 auto;
+
+        &:hover{
+            border:2px solid #d806f8;
+            transition: 1s;
+        }
+    }
+}
+@media (max-width:1000px) {
+    .journey{
+        #consulting{
+            border-radius:0px !important;
+            #ikon{
+                display: none;
+            }
+            #ikon2{
+                display: none;
+                
+            }
+
+            #sifirbir{
+                display: none;
+                }
+            #sifiriki{
+            display: none;
+            }
+            #sifiruc{
+                display: none;
+                }
+        }
+       
+    }
+    
+}

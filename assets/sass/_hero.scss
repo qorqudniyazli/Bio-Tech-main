@@ -1,0 +1,18 @@
+.hero{
+    background-image: url(../img/image.png);
+    background-color: black;
+
+    h4{
+        color: #80AB9E;
+    }
+
+    button{
+        background-color: #00E3A5;
+    }
+
+    #get{
+        &:hover{
+            background-color: #00E3A5;
+        }
+    }
+}

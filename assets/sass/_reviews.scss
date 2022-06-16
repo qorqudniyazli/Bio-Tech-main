@@ -1,0 +1,66 @@
+.reviews{
+    background-image: url(../img/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#000;
+    #resm{
+        border:5px solid #00E3A5;
+        border-radius: 50%;
+    }
+    #dake{
+        background-color: #09c68d24;
+        position: relative;
+    }
+
+    #metn{
+        color: #80AB9E;
+        z-index:5;
+       
+    }
+    #dirnaq{
+        z-index:2;
+        position: absolute;
+        top:20px;
+        left:50%;
+    }
+
+
+    #ikonsag{
+        width:40px;
+        height: 40px;
+        background-color: #00E3A5;
+        position:absolute;
+        right: -20px;
+    }
+
+    #ikonsol{
+        width:40px;
+        height: 40px;
+        background-color: #00E3A5;
+        position:absolute;
+        left: -20px;
+    }
+}
+@media (max-width:1000px) {
+    .reviews{
+        #dirnaq{
+            display: none;
+        }
+        #dake{
+            display:flex;
+            flex-direction:column;
+            border-radius:0px !important;
+            #ikonsag{
+                position: absolute;
+                top:200px;
+                right: 0px;
+            }
+            #ikonsol{
+                position: absolute;
+                top:200px;
+                left: 0px;
+            }
+        }
+    }
+    
+}

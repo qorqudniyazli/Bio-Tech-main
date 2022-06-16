@@ -1,0 +1,26 @@
+header{
+    background-image: url(../img/image.png);
+    background-color: black;
+
+    #teach{
+        color: #00E3A5;
+    }
+    
+#menu{
+    border:1p solid #00E3A5;
+    color: #00E3A5;
+    background-color: #00E3A5;
+}
+
+    #about{
+        color:#00E3A5;
+    }
+
+    #join{
+        border:1px solid #00E3A5;
+        font-size:14px;
+        &:hover{
+            background-color: #00E3A5;
+        }
+    }
+}

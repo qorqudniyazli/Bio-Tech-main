@@ -1,0 +1,92 @@
+.footer{
+
+    background-image:url(../img/map.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+  
+    footer{
+        background-color: rgba($color: #00E3A5, $alpha: .1);
+       
+    
+    
+    
+        #tech{
+            color: #00E3A5;
+        }
+    
+        #metn{
+            color: #80AB9E;
+        }
+    
+        #face{
+           display: block;
+           width:30px;
+           height:30px;
+           border-radius: 50%;
+            border:1px solid #00E3A5;
+            i{
+               
+                color: #00E3A5;
+              
+            }
+        }
+        #twit{
+            display: block;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+             border:1px solid #80AB9E;
+             i{
+                
+                 color: #80AB9E;
+               
+             }
+        }
+    
+        #insta{
+            display: block;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+             border:1px solid #80AB9E;
+             i{
+                
+                 color: #80AB9E;
+               
+             }
+        }
+    
+    
+    
+        #all{
+            color: #80AB9E;
+        }
+        #ortaxet{
+            border-right:1px solid #80AB9E;
+        }
+
+
+
+        #form{
+            border: 1px solid #00E3A5;
+        }
+
+        #submit{
+            background-color: #00E3A5;
+        }
+
+        #list{
+            border-top: 1px solid #80AB9E;
+            ul{
+                li{
+                    a{
+                        color: #80AB9E;
+                    }
+                }
+            }
+        }
+        
+    
+    }
+}

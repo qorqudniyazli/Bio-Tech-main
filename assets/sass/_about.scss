@@ -1,0 +1,92 @@
+.about{
+     background-image: url(../img/about.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    p{
+        color: #80AB9E;
+    }
+    #more{
+        border:2px solid #00E3A5;
+
+        &:hover{
+            border:2px solid #d806f8;
+            transition: 1s;
+        }
+    }
+        .boxs{
+            
+            
+            .market{
+                width:300px;
+                height: 200px;
+                background-image: url(../img/market.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+               
+                h6{
+                    color: #BDF3FF;
+                }
+            }
+            .money{
+                width:300px;
+                height: 200px;
+                background-image: url(../img/money.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform:translateY(100px);
+                z-index: 5;
+               
+               
+                h6{
+                    color: #BDF3FF;
+                }
+            }
+            .data{
+                width:300px;
+                height: 200px;
+                background-image: url(../img/data.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform:translateX(100px);
+                h6{
+                    color: #BDF3FF;
+                }
+            }
+            .fast{
+                width:300px;
+                height: 200px;
+                background-image: url(../img/fast.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform:translate(100px,100px);
+               
+                h6{
+                    color: #BDF3FF;
+                }
+             
+            }
+        }
+ }
+
+
+
+ @media (max-width:1300px) {
+    .about{
+        .boxs{
+          
+            .market{
+                transform: none;
+            }
+            .money{
+                transform: none;
+             }
+
+             .data{
+                transform: none;
+             }
+             .fast{
+                transform: none;
+             }
+        }
+    }
+}
